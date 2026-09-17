@@ -459,6 +459,7 @@ html {
   background-color: white;
   padding: 20px;
   z-index: 2;
+  position: relative;
   margin-top: 40px;
   width: -moz-fit-content;
   width: fit-content;
@@ -579,7 +580,8 @@ html {
     flex-basis: 100%;
   }
 }
-.testimonials::after, .testimonials::before {
+.testimonials::after,
+.testimonials::before {
   width: 50%;
   content: "";
   height: 100%;
@@ -660,4 +662,4 @@ footer {
   .project {
     width: 90% !important;
   }
-}/*# sourceMappingURL=stylesheet.css.map */
+} /*# sourceMappingURL=stylesheet.css.map */
